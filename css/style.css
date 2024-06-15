@@ -19,9 +19,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    /* width: 100vw; */
     background: var(--white-bg);
-    height: 2000px;
+    height: min-content;
 }
 .container{
     width: 100%;
@@ -408,6 +407,7 @@ body{
 }
 .car-buy-btn:hover{
     background: var(--orange-hover);
+    cursor: pointer;
 }
 .black-tag{
     width: 35px;
@@ -419,6 +419,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+.black-tag:hover{
+    cursor: pointer;
+}
 .car-sale-second-line{
     margin-top: 25px;
     display: flex;
@@ -426,36 +429,248 @@ body{
 }
 .faq-sec{
     width: 100%;
-    height: 400px;
+    height: 580px;
     background: var(--black-bg);
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px 0px 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* h1{
-    text-transform: uppercase;
+.top-faq{
+    width: 100%;
+    height: min-content;
+    text-align: center;
+}
+.faq-title{
     font-family: "stylish";
-    font-weight: 100;
-} */
+    color: white;
+    font-size: 25px;
+}
+.faq-details{
+    width: 80%;
+    margin: 0 auto;
+    color: var(--gray-txt);
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+    margin-top: 15px;
+}
+.bottom-faq{
+    width: 100%;
+    /* border: 1px solid gray; */
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+}
+.left-faq{
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.left-faq-tab-one{
+    display: flex;
+    padding: 0px 15px;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: var(--white-bg);
+    width: 100%;
+}
+.left-faq-tab-one p{
+    color: var(--black-bg);
+    font-weight: bold;
+    font-size: 16px;
+}
+.black-arrow-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: var(--black-shade-bg);
+}
+.left-faq-tab-two{
+    display: flex;
+    padding: 0px 15px;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: var(--black-shade-bg);
+    width: 100%;
+    margin: 20px 0px;
+}
+.left-faq-tab-two p{
+    color: var(--white-bg);
+    font-weight: bold;
+    font-size: 16px;
+}
+.white-arrow-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black-shade-bg);
+    background: var(--white-bg);
+}
+.left-faq-tab-three{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background: var(--black-shade-bg);
+    border-radius: 8px;
+    justify-content: center;
+}
+.left-faq-tab-title{
+    color: var(--white-bg);
+    font-size: 14px;
+    font-weight: bold;
+}
+.left-faq-tab-det{
+    font-size: 13px;
+    color: var(--gray-txt);
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+}
+.left-faq-tab-three button{
+    color: var(--white-bg);
+    background: var(--orange);
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+}
+.left-faq-tab-three button:hover{
+    cursor: pointer;
+    background: var(--orange-hover);
+}
+.left-faq-tab-three i{
+    color: var(--orange);
+    background: var(--white-bg);
+    font-size: 40px;
+    border-radius: 50%;
+    border-color: var(--orange);
+    margin-bottom: 20px;
+}
+.right-faq{
+    width: 70%;
+    padding: 0px 30px;
+}
+.right-faq-sec-first-tab{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    border-radius: 8px;
+    background: var(--white-bg);
+    padding: 0px 15px;
+}
+.faq-right-first-tab-title-n-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.faq-right-first-tab-det{
+    font-size: 13px;
+    color: var(--gray-txt);
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.newsletter-sec{
+    width: 100%;
+    height: 300px;
+    border: 1px solid gray;
+    margin-top: 200px;
+    padding: 0px 70px;
+    position: relative;
+    background: var(--black-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe-sec{
+    width: 80%;
+    height: 250px;
+    background: var(--white-bg);
+    position: absolute;
+    top: -100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.sub-title{
+    font-family: "stylish";
+    font-size: 25px;
+    color: var(--black-bg);
+}
+.sub-det{
+    color: var(--gray-txt);
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 18px;
+    text-align: center;
+    width: 80%;
+}
+.sub-email-tab{
+    width: 80%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sub-email-tab input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    opacity: .7;
+}
+.sub-email-tab button{
+    width: 20%;
+    height: 100%;
+    background: var(--orange);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.sub-email-tab button:hover{
+    cursor: pointer;
+    background: var(--orange-hover);
+}
+footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: var(--black-shade-bg);
+    height: 40px;
+    margin-top: 50px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--gray-txt);
+    position: absolute;
+    bottom: 40px;
+}
