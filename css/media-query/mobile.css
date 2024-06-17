@@ -1,0 +1,147 @@
+@media (max-width: 767px) {
+
+    .container{
+        position: relative;
+    }
+    .first-sec{
+        padding: 0px 0px;
+    }
+    .top-nav-bar{
+        padding: 0px 20px 0px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo-sec{
+        width: 200px;
+        justify-content: flex-start;
+    }
+    .nav-links{
+        display: none;
+    }
+    .contact-btn{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-image{
+        height: 250px;
+        background-size: 90%;
+        margin-top: 30px;
+    }
+    .first-sec-det{
+        width: 100%;
+        display: flex;
+        height: 200px;
+        padding-bottom: 20px;
+    }
+    .left-sec-txt-holder p{
+        font-family: "stylish";
+        font-size: 24px;
+        text-align: center;
+    }
+    .right-sec-txt-holder p{
+        color: var(--gray-txt);
+        font-size: 11px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 15px;
+        text-align: center;
+    }
+    .behance-facebook{
+        overflow-x: hidden;
+        gap: 20px;
+        font-size: 13px;
+    }
+    .services-sec{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .services-left{
+        width: 100%;
+        height: 200px;
+    }
+    .services-right{
+        width: 100%;
+        height: min-content;
+        display: flex;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .services-line1{
+        width: 100%;
+        flex-direction: column;
+        height: 400px;
+        justify-content: center;
+        gap: 10px;
+        margin-top: -50px;
+    }
+    .tabs{
+        width: 100%;
+        height: 120px;
+    }
+    .services-line2{
+        display: none;
+    }
+    .car-sale-sec{
+        padding: 0px 20px;
+        margin-top: 190px;
+    }
+    .car-sale-header{
+        text-align: center;
+    }
+    .car-sale-first-line{
+        margin: 0 auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .car-sale-second-line{
+        display: none;
+    }
+    .car-card{
+        margin-top: 15px;
+    }
+    .faq-sec{
+        padding: 50px 30px;
+        height: min-content;
+    }
+    .right-faq{
+        display: none;
+    }
+    .left-faq{
+        width: 100%;
+    }
+    .newsletter-sec{
+        margin-top: 150px;
+
+    }
+    .sub-title{
+        text-align: center;
+        font-size: 26px;
+    }
+    .subscribe-sec{
+        width: 85%;
+    }
+    .sub-email-tab{
+        width: 90%;
+    }
+    .sub-email-tab input{
+        font-size: 12px;
+    }
+    .sub-email-tab button{
+        width: 100px;
+        font-size: 11px;
+        font-weight: 100;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        font-size: 9px;
+        padding: 0px 5px;
+    }
+    
+}
