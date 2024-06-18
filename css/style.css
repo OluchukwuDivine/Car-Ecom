@@ -1,6 +1,6 @@
 @font-face{
     font-family: "stylish";
-    src: url(fonts/stylish.ttf);
+    src: url(/fonts/stylish.ttf);
 }
 :root{
     --orange: #F87629;
@@ -111,7 +111,7 @@ body{
     height: 320px;
     margin-top: 40px;
     border-radius: 20px;
-    background-image: url(images/car-images/bmw-black.jpg);
+    background-image: url(/images/car-images/bmw-black.jpg);
     background-size: 85%;
     background-position: 50%;
 }
