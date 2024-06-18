@@ -1,6 +1,6 @@
 @font-face{
     font-family: "stylish";
-    src: url(/fonts/stylish.ttf);
+    src: url(fonts/stylish.ttf);
 }
 :root{
     --orange: #F87629;
